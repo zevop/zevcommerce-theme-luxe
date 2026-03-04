@@ -1,6 +1,6 @@
 {
   "name": "@zevcommerce/theme-luxe",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Luxe — A sophisticated, high-end ZevCommerce theme.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -31,14 +31,14 @@
     "react-dom": "^18.0.0 || ^19.0.0",
     "next": "^14.0.0 || ^15.0.0 || ^16.0.0",
     "@zevcommerce/theme-sdk": "^1.0.0",
-    "@zevcommerce/theme-prime": "^2.0.0"
+    "@zevcommerce/theme-prime": "^2.0.0 || ^3.0.0"
   },
   "dependencies": {
     "lucide-react": "^0.562.0"
   },
   "devDependencies": {
     "@zevcommerce/theme-sdk": "^1.0.0",
-    "@zevcommerce/theme-prime": "^2.0.0",
+    "@zevcommerce/theme-prime": "^2.0.0 || ^3.0.0",
     "@types/react": "^19.0.0",
     "react": "^19.0.0",
     "tsup": "^8.3.5",
