@@ -1,0 +1,722 @@
+{
+  "name": "Luxe",
+  "settings": {
+    "colors": {
+      "primary": "#EDE8E0",
+      "secondary": "#8A8279",
+      "accent": "#C9A96E",
+      "background": "#0D0C0B",
+      "text": "#C4BDB4",
+      "heading": "#EDE8E0",
+      "border": "#252320",
+      "shadow": "rgba(201,169,110,0.08)",
+      "link": "#C9A96E",
+      "linkHover": "#DEC08B",
+      "buttonBg": "#C9A96E",
+      "buttonText": "#0D0C0B",
+      "buttonBorder": "#C9A96E",
+      "buttonHoverBg": "#B8924A",
+      "buttonHoverText": "#0D0C0B",
+      "buttonHoverBorder": "#B8924A",
+      "secondaryButtonBg": "transparent",
+      "secondaryButtonText": "#EDE8E0",
+      "secondaryButtonBorder": "#EDE8E0",
+      "secondaryButtonHoverBg": "#EDE8E0",
+      "secondaryButtonHoverText": "#0D0C0B",
+      "secondaryButtonHoverBorder": "#EDE8E0",
+      "inputBg": "#161513",
+      "inputText": "#EDE8E0",
+      "inputBorder": "#2E2C29",
+      "inputHoverBg": "#1C1A18",
+      "variantBg": "#1C1A18",
+      "variantText": "#C4BDB4",
+      "variantBorder": "#2E2C29",
+      "variantSelectedBg": "#C9A96E",
+      "variantSelectedText": "#0D0C0B",
+      "variantSelectedBorder": "#C9A96E"
+    },
+    "typography": {
+      "headingFont": "Cormorant Garamond",
+      "bodyFont": "Jost",
+      "subheadingFont": "Jost",
+      "accentFont": "Cormorant Garamond",
+      "p": {
+        "size": "15px",
+        "lineHeight": "loose",
+        "letterSpacing": "normal",
+        "case": "default"
+      },
+      "h1": {
+        "font": "heading",
+        "size": "52px",
+        "lineHeight": "tight",
+        "letterSpacing": "tight",
+        "case": "uppercase"
+      },
+      "h2": {
+        "font": "heading",
+        "size": "36px",
+        "lineHeight": "tight",
+        "letterSpacing": "tight",
+        "case": "default"
+      },
+      "h3": {
+        "font": "heading",
+        "size": "26px",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "case": "default"
+      },
+      "h4": {
+        "font": "heading",
+        "size": "20px",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "case": "default"
+      },
+      "h5": {
+        "font": "body",
+        "size": "13px",
+        "lineHeight": "normal",
+        "letterSpacing": "loose",
+        "case": "uppercase"
+      },
+      "h6": {
+        "font": "body",
+        "size": "11px",
+        "lineHeight": "normal",
+        "letterSpacing": "loose",
+        "case": "uppercase"
+      }
+    },
+    "layout": {
+      "containerWidth": "1440px",
+      "sectionSpacing": "100px",
+      "sectionSpacingMobile": "60px",
+      "gridGap": "24px"
+    },
+    "animations": {
+      "pageTransition": "fade",
+      "cardHoverEffect": "zoom"
+    },
+    "buttons": {
+      "primaryRadius": "0px",
+      "primaryBorderThickness": "0px",
+      "primaryFont": "body",
+      "primaryCase": "uppercase",
+      "primaryLetterSpacing": "0.12em",
+      "secondaryRadius": "0px",
+      "secondaryBorderThickness": "1px",
+      "secondaryFont": "body",
+      "secondaryCase": "uppercase",
+      "secondaryLetterSpacing": "0.12em",
+      "pillsRadius": "100px"
+    },
+    "badges": {
+      "position": "top_left",
+      "radius": "0px",
+      "saleBg": "#C9A96E",
+      "saleText": "#0D0C0B",
+      "soldOutBg": "#252320",
+      "soldOutText": "#8A8279",
+      "font": "body",
+      "case": "uppercase"
+    },
+    "cart": {
+      "type": "drawer",
+      "titleCase": "uppercase",
+      "priceFont": "accent",
+      "autoOpenDrawer": true,
+      "emptyCartLink": "/collections/all",
+      "enableNotes": false,
+      "openNoteByDefault": false,
+      "enableDiscounts": true,
+      "mediaBorder": "none",
+      "mediaRadius": "0px"
+    },
+    "drawers": {
+      "colorScheme": "dark",
+      "borders": "solid",
+      "shadow": "xl"
+    },
+    "icons": {
+      "stroke": "thin"
+    },
+    "inputs": {
+      "borderThickness": "1px",
+      "radius": "0px",
+      "textPreset": "p"
+    },
+    "modals": {
+      "colorScheme": "dark",
+      "radius": "0px",
+      "borders": "solid",
+      "shadow": "2xl"
+    },
+    "productCards": {
+      "quickAdd": true,
+      "mobileQuickAdd": true,
+      "quickAddScheme": "dark",
+      "showSecondImage": true,
+      "showCarousel": false
+    }
+  },
+  "sections": {
+    "announcement_1": {
+      "type": "announcement",
+      "settings": {
+        "text": "Complimentary shipping on all orders over $200",
+        "backgroundColor": "#C9A96E",
+        "textColor": "#0D0C0B"
+      }
+    },
+    "header_1": {
+      "type": "header",
+      "settings": {
+        "layout": "standard",
+        "menuHandle": "main-menu",
+        "showSearch": true,
+        "sticky": true,
+        "logoHeight": 40
+      }
+    },
+    "hero_1": {
+      "type": "hero",
+      "settings": {
+        "height": "full",
+        "layout": "overlay",
+        "alignment": "center",
+        "vertical_alignment": "center",
+        "overlay_color": "#0D0C0B",
+        "overlay_opacity": 65,
+        "section_bg_color": "#0D0C0B"
+      },
+      "blocks": [
+        {
+          "type": "heading",
+          "settings": {
+            "text": "Crafted for the Discerning",
+            "tag": "h1",
+            "color": "#EDE8E0"
+          }
+        },
+        {
+          "type": "text",
+          "settings": {
+            "text": "Exclusive collections for those who appreciate the exceptional.",
+            "color": "#C4BDB4"
+          }
+        },
+        {
+          "type": "button",
+          "settings": {
+            "text": "Explore Collection",
+            "link": "/collections/all",
+            "bg_color": "#C9A96E",
+            "text_color": "#0D0C0B"
+          }
+        }
+      ]
+    },
+    "featured_collection_1": {
+      "type": "featured_collection",
+      "settings": {
+        "title": "New Arrivals",
+        "collection_handle": "all",
+        "layout": "editorial",
+        "columns": 4,
+        "limit": 8,
+        "show_view_all": true,
+        "view_all_text": "View All",
+        "image_aspect_ratio": "portrait"
+      },
+      "blocks": []
+    },
+    "marquee_1": {
+      "type": "marquee",
+      "settings": {
+        "items": "New Arrivals|Exclusive Pieces|Free Shipping Over $200|Handcrafted Quality|Limited Editions",
+        "mode": "gold_on_dark",
+        "speed": "medium",
+        "separator": "◆",
+        "backgroundColor": "#0D0C0B",
+        "textColor": "#C9A96E"
+      }
+    },
+    "image_with_text_1": {
+      "type": "image_with_text",
+      "settings": {
+        "image_position": "left",
+        "min_height": 560
+      },
+      "blocks": [
+        {
+          "type": "heading",
+          "settings": {
+            "text": "Crafted with Purpose"
+          }
+        },
+        {
+          "type": "text",
+          "settings": {
+            "text": "Every piece in our collection is thoughtfully designed and meticulously crafted. We believe in enduring quality — pieces that tell stories worth passing down."
+          }
+        },
+        {
+          "type": "button",
+          "settings": {
+            "text": "Our Story",
+            "link": "/pages/about"
+          }
+        }
+      ]
+    },
+    "testimonials_1": {
+      "type": "testimonials",
+      "settings": {
+        "backgroundColor": "#0D0C0B",
+        "textColor": "#EDE8E0",
+        "autoPlay": true,
+        "interval": 6
+      },
+      "blocks": [
+        {
+          "type": "testimonial",
+          "settings": {
+            "quote": "An extraordinary experience from start to finish. The quality is unlike anything else available at this price point.",
+            "author": "Alexandra M.",
+            "title": "Loyal Customer"
+          }
+        },
+        {
+          "type": "testimonial",
+          "settings": {
+            "quote": "I've been collecting pieces from this brand for years. Each item arrives beautifully packaged and exceeds every expectation.",
+            "author": "James R.",
+            "title": "Collector"
+          }
+        },
+        {
+          "type": "testimonial",
+          "settings": {
+            "quote": "The attention to detail is remarkable. This is what luxury shopping should feel like.",
+            "author": "Sophia K.",
+            "title": "Interior Designer"
+          }
+        }
+      ]
+    },
+    "newsletter_1": {
+      "type": "newsletter",
+      "settings": {
+        "backgroundColor": "#0D0C0B",
+        "padding": "large"
+      },
+      "blocks": [
+        {
+          "type": "heading",
+          "settings": {
+            "text": "Join the Inner Circle",
+            "color": "#EDE8E0"
+          }
+        },
+        {
+          "type": "text",
+          "settings": {
+            "text": "Be first to discover new arrivals, exclusive offers, and private events.",
+            "color": "#8A8279"
+          }
+        },
+        {
+          "type": "email_signup",
+          "settings": {
+            "placeholder": "Your email address",
+            "button_text": "Subscribe"
+          }
+        }
+      ]
+    },
+    "footer_1": {
+      "type": "footer",
+      "settings": {
+        "layout": "centered",
+        "description": "Curated luxury for those who seek the exceptional.",
+        "backgroundColor": "#0D0C0B",
+        "textColor": "#8A8279"
+      },
+      "blocks": [
+        {
+          "type": "link_list",
+          "settings": {
+            "title": "Collections",
+            "menu": "main-menu",
+            "column_index": 1
+          }
+        },
+        {
+          "type": "link_list",
+          "settings": {
+            "title": "Information",
+            "menu": "footer",
+            "column_index": 2
+          }
+        },
+        {
+          "type": "social_link",
+          "settings": {
+            "platform": "instagram",
+            "url": "https://instagram.com",
+            "column_index": 3
+          }
+        },
+        {
+          "type": "social_link",
+          "settings": {
+            "platform": "facebook",
+            "url": "https://facebook.com",
+            "column_index": 3
+          }
+        }
+      ]
+    },
+    "copyright_1": {
+      "type": "copyright",
+      "settings": {
+        "copyrightText": "",
+        "backgroundColor": "#0D0C0B",
+        "textColor": "#5A5550",
+        "showBorder": true
+      }
+    },
+    "main-product": {
+      "type": "product-detail",
+      "settings": {
+        "layout": "sticky-sidebar"
+      },
+      "blocks": [
+        {
+          "type": "product_images",
+          "settings": {
+            "layout": "stacked",
+            "enable_zoom": true,
+            "show_thumbnails": true
+          }
+        },
+        {
+          "type": "product_title",
+          "settings": {
+            "show_vendor": true
+          }
+        },
+        {
+          "type": "product_price",
+          "settings": {
+            "show_compare_at": true
+          }
+        },
+        {
+          "type": "product_variants",
+          "settings": {
+            "style": "buttons"
+          }
+        },
+        {
+          "type": "add_to_cart",
+          "settings": {
+            "show_quantity": true,
+            "button_text": "Add to Cart"
+          }
+        },
+        {
+          "type": "product_description",
+          "settings": {
+            "collapsible": true
+          }
+        }
+      ]
+    },
+    "main-collection": {
+      "type": "product-list",
+      "settings": {},
+      "blocks": [
+        {
+          "type": "collection_heading",
+          "settings": {}
+        },
+        {
+          "type": "collection_description",
+          "settings": {}
+        },
+        {
+          "type": "product_grid",
+          "settings": {
+            "columns": "4"
+          }
+        }
+      ]
+    },
+    "main-cart": {
+      "type": "cart-page",
+      "settings": {},
+      "blocks": [
+        {
+          "type": "cart_items",
+          "settings": {}
+        },
+        {
+          "type": "cart_summary",
+          "settings": {}
+        }
+      ]
+    },
+    "main-login": {
+      "type": "auth-section",
+      "settings": { "mode": "login" },
+      "blocks": [
+        {
+          "type": "auth_header",
+          "allow_delete": false,
+          "settings": {
+            "title": "Welcome back",
+            "subtitle": "Sign in to your account",
+            "show_logo": true
+          }
+        },
+        {
+          "type": "login_form",
+          "allow_delete": false,
+          "settings": {
+            "show_forgot_password": true,
+            "show_register_link": true,
+            "button_text": "Sign In"
+          }
+        }
+      ]
+    },
+    "main-register": {
+      "type": "auth-section",
+      "settings": { "mode": "register" },
+      "blocks": [
+        {
+          "type": "auth_header",
+          "allow_delete": false,
+          "settings": {
+            "title": "Create account",
+            "subtitle": "Join our exclusive community",
+            "show_logo": true
+          }
+        },
+        {
+          "type": "register_form",
+          "allow_delete": false,
+          "settings": {
+            "show_terms": true,
+            "show_login_link": true,
+            "button_text": "Create Account"
+          }
+        }
+      ]
+    },
+    "main-forgot-password": {
+      "type": "auth-section",
+      "settings": { "mode": "forgot-password" },
+      "blocks": [
+        {
+          "type": "auth_header",
+          "allow_delete": false,
+          "settings": {
+            "title": "Reset Password",
+            "subtitle": "We'll send you a code to reset your password",
+            "show_logo": true
+          }
+        },
+        {
+          "type": "forgot_password_form",
+          "allow_delete": false,
+          "settings": {
+            "button_text": "Send Code"
+          }
+        }
+      ]
+    },
+    "main-checkout": {
+      "type": "checkout-page",
+      "blocks": [
+        {
+          "type": "checkout_page_title",
+          "settings": {
+            "show_title": true,
+            "title": "Checkout",
+            "alignment": "left"
+          }
+        },
+        {
+          "type": "checkout_form",
+          "settings": {}
+        }
+      ],
+      "settings": {}
+    },
+    "main-thank-you": {
+      "type": "thank-you-page",
+      "blocks": [
+        {
+          "type": "thank_you_icon",
+          "settings": {
+            "mode": "icon",
+            "icon": "check",
+            "size": 80,
+            "color": "#C9A96E",
+            "background_color": "#161513"
+          }
+        },
+        {
+          "type": "thank_you_header",
+          "settings": {
+            "show_title": true,
+            "title": "Order Confirmed",
+            "subtitle": "Thank you for your purchase. Your order has been successfully placed."
+          }
+        },
+        {
+          "type": "order_details",
+          "settings": {}
+        },
+        {
+          "type": "gift_card_codes",
+          "settings": {}
+        },
+        {
+          "type": "payment_instructions",
+          "settings": {}
+        },
+        {
+          "type": "continue_shopping",
+          "settings": {
+            "button_text": "Continue Shopping"
+          }
+        }
+      ],
+      "settings": {}
+    },
+    "main-account": {
+      "type": "account-section",
+      "blocks": [
+        {
+          "type": "account_nav",
+          "allow_delete": false,
+          "settings": {
+            "use_soft_active": true,
+            "active_color": "#1C1A18",
+            "active_text_color": "#EDE8E0",
+            "active_shadow": "none",
+            "icon_color": "#5A5550",
+            "active_icon_color": "#C9A96E"
+          }
+        },
+        {
+          "type": "report",
+          "settings": {
+            "show_total_orders": true,
+            "show_total_spent": true,
+            "show_loyalty": true,
+            "card_bg": "#161513",
+            "icon_color": "#C9A96E",
+            "icon_bg": "#1C1A18",
+            "label_color": "#8A8279",
+            "value_color": "#EDE8E0"
+          }
+        },
+        {
+          "type": "orders",
+          "allow_delete": false,
+          "settings": {
+            "dashboard_title": "Recent Orders",
+            "dashboard_items": 3,
+            "items_per_page": 10,
+            "search_enabled": true,
+            "table_bg": "#0D0C0B",
+            "header_bg": "#161513",
+            "header_text_color": "#8A8279",
+            "row_text_color": "#C4BDB4",
+            "row_border_color": "#252320"
+          }
+        },
+        {
+          "type": "addresses",
+          "allow_delete": false,
+          "settings": {
+            "title": "Saved Addresses",
+            "card_bg": "#161513",
+            "title_color": "#EDE8E0",
+            "text_color": "#8A8279",
+            "icon_color": "#252320"
+          }
+        }
+      ],
+      "settings": {
+        "show_header": true,
+        "title": "My Account",
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "content_width": "1200",
+        "background_color": "#0D0C0B",
+        "shadow_style": "none",
+        "border_radius": 0,
+        "show_recent_orders": true,
+        "show_recent_addresses": true,
+        "modal_bg": "rgba(0,0,0,0.7)",
+        "modal_title": "Add New Address",
+        "modal_cancel_label": "Cancel",
+        "modal_submit_label": "Save Address",
+        "modal_content_bg": "#161513",
+        "modal_radius": 0,
+        "modal_primary_button_bg": "#C9A96E",
+        "modal_primary_button_text": "#0D0C0B",
+        "modal_title_color": "#EDE8E0",
+        "modal_input_bg": "#1C1A18",
+        "modal_input_border": "#2E2C29"
+      }
+    },
+    "main-order": {
+      "type": "order-details-section",
+      "blocks": [
+        { "type": "order_header", "settings": {} },
+        { "type": "order_items", "settings": {} },
+        { "type": "order_summary", "settings": {} },
+        { "type": "order_address", "settings": {} }
+      ],
+      "settings": {}
+    }
+  },
+  "layout": {
+    "header": [
+      "announcement_1",
+      "header_1"
+    ],
+    "content": [
+      "hero_1",
+      "featured_collection_1",
+      "marquee_1",
+      "image_with_text_1",
+      "testimonials_1",
+      "newsletter_1"
+    ],
+    "footer": [
+      "footer_1",
+      "copyright_1"
+    ]
+  },
+  "templates": {
+    "product_detail": { "order": ["main-product"] },
+    "collection": { "order": ["main-collection"] },
+    "cart": { "order": ["main-cart"] },
+    "login": { "order": ["main-login"] },
+    "register": { "order": ["main-register"] },
+    "forgot_password": { "order": ["main-forgot-password"] },
+    "checkout": { "order": ["main-checkout"] },
+    "thank_you": { "order": ["main-thank-you"] },
+    "account": { "order": ["main-account"] },
+    "order": { "order": ["main-order"] }
+  }
+}
